@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="TicTacToeApplication [dev]" type="SpringBootApplicationConfigurationType"
+                   factoryName="Spring Boot">
+        <module name="tictactoe.main"/>
+        <extension name="coverage">
+            <pattern>
+                <option name="PATTERN" value="pl.pwr.tictactoe.*"/>
+                <option name="ENABLED" value="true"/>
+            </pattern>
+        </extension>
+        <option name="SPRING_BOOT_MAIN_CLASS" value="pl.pwr.tictactoe.TicTacToeApplication"/>
+        <option name="ACTIVE_PROFILES" value="dev"/>
+        <option name="ALTERNATIVE_JRE_PATH"/>
+        <option name="SHORTEN_COMMAND_LINE" value="NONE"/>
+        <method v="2">
+            <option name="Make" enabled="true"/>
+        </method>
+    </configuration>
+</component>

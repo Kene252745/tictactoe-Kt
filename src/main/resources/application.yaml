@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://${dbHost}:${dbPort}/${dbName}"
+    username: "${dbUsername}"
+    password: "${dbPassword}"
+  flyway:
+    locations: classpath:db/postgresql
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://sevi.eu.auth0.com/
+
+
+
+
+
+
+
+
+
+
+
+
+auth0:
+  audience: https://tictactoe.michalregulski.pl
+
+
+
